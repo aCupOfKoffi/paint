@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>My game</title>
+</head>
+<body>
+    <div class="container">
+    <canvas id="canvas" class="canvas" width="400" height="400"></canvas>
+    <ul class="color_list">
+        <li class="brushColor red" data-color="red"></li>
+        <li class="brushColor green" data-color="green"></li>
+        <li class="brushColor blue" data-color="blue"></li>
+        <li class="brushColor black" data-color="black"></li>
+        <li class="brushColor white" data-color="white"></li>
+    </ul>
+    <input type="range" id="stringWeight" min="1" max="10" step="1">
+            <button onclick="canvasContext.clearRect(0, 0, 400, 400);">Clear</button>
+        </div>
+            <script src="script.js" type="application/javascript"></script>
+</body>
+</html>
